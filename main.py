@@ -5,5 +5,7 @@ width=400
 height=400
 screen = pygame.display.set_mode((width,height))
 done = False
-while not done
+while not done:
+  for event in pygame.event.get():
+    
 pygame.quit()
