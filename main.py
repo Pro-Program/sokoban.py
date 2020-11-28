@@ -9,4 +9,5 @@ while not done:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
     	done=True
+  screen.fill((105,105,105))
 pygame.quit()
